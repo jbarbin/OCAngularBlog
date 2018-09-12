@@ -1,0 +1,16 @@
+.post-btn-action button{
+    margin: 15px 2px;
+}
+.post-btn-action span{
+    margin-left: 15px;
+}
+
+.post-content{
+    margin: 15px 0;
+}
+
+.post-date p{
+    text-align: right;
+    margin-right: 20px;
+    font-style: italic;
+}

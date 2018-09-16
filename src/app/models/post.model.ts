@@ -4,7 +4,10 @@ export class Post {
     loveIts: number;
     created_at: Date;
 
-    constructor() {
+    constructor(title: string, content: string) {
         this.created_at = new Date();
+        this.loveIts = 0;
+        this.title = title;
+        this.content = content;
     }
 }
